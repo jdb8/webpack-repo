@@ -1,7 +1,7 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-    mode: 'development',
-    devtool: false,
-    plugins: [new HtmlWebpackPlugin()],
-}
+  mode: "development",
+  devtool: false,
+  plugins: [new HtmlWebpackPlugin()]
+};
